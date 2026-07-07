@@ -1,0 +1,9 @@
+# Los scripts de shell SIEMPRE con LF (si no, fallan en macOS/Linux)
+*.sh text eol=lf
+# Scripts de PowerShell con CRLF (Windows)
+*.ps1 text eol=crlf
+# Binarios: no tocar
+*.png binary
+*.mp3 binary
+*.mov binary
+*.ttf binary
