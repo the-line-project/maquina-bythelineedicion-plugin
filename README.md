@@ -15,13 +15,11 @@ Necesitás **Claude Code** (app de escritorio o terminal). Adentro de Claude Cod
 escribí:
 
 ```
-/plugin marketplace add TU-USUARIO/maquina-edicion-plugin
+/plugin marketplace add jjjhonsonmagic/maquina-bythelineedicion-plugin
 ```
 ```
-/plugin install reel-editor
+/plugin install reel-editor@the-line-project
 ```
-
-> Reemplazá `TU-USUARIO` por el usuario/repo de GitHub donde esté publicado.
 
 Después, **la primera vez**, preparás la máquina (instala las herramientas y el
 motor de render) con:
