@@ -1,0 +1,19 @@
+🎵  MÚSICA — LEEME
+===================
+
+Esta máquina NO trae música (para evitar problemas de derechos de autor).
+
+Para que tus reels tengan música de fondo:
+
+1. Conseguí una pista LIBRE DE DERECHOS (royalty-free). Fuentes gratis:
+   - YouTube Audio Library (studio.youtube.com -> Biblioteca de audio)
+   - Pixabay Music (pixabay.com/music)
+   - Uppbeat, Chosic, Free Music Archive, etc.
+
+2. Renombrá el archivo a:  musica.mp3
+
+3. Pegalo en esta misma carpeta (public/), al lado de este .txt.
+
+Listo. La máquina lo usa automáticamente como fondo (bajito, debajo de la voz).
+
+Si NO ponés música, igual funciona: el reel se renderiza con la voz sola.

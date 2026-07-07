@@ -1,0 +1,21 @@
+{
+  "name": "the-line-project",
+  "owner": {
+    "name": "The Line Project"
+  },
+  "metadata": {
+    "description": "Marketplace de The Line Project — herramientas de edición de contenido con IA.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "reel-editor",
+      "source": "./reel-editor",
+      "description": "Editor de reels verticales con IA: transcribe, corta, pone subtítulos dinámicos, motion graphics, música y efectos, y renderiza el reel final. 100% local.",
+      "version": "1.0.0",
+      "author": {
+        "name": "The Line Project"
+      }
+    }
+  ]
+}
