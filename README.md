@@ -1,10 +1,15 @@
-# 🎬 The Line Project · Máquina de Edición (plugin de Claude Code)
+# 🎬 Line System · The Line Project (plugin de Claude Code)
 
-Editor de reels verticales con IA. Le tirás un crudo (video vertical de celular)
-y te devuelve un reel terminado: **cortes + subtítulos dinámicos palabra por
-palabra + motion graphics + música + efectos**. 100% local, sin APIs pagas.
+Sistema de edición de reels verticales con IA. Le tirás un crudo (video vertical
+de celular) y te devuelve un reel terminado: **cortes + subtítulos dinámicos
+palabra por palabra + motion graphics + música + efectos**. 100% local, sin APIs
+pagas.
 
-Este repo es un **marketplace de Claude Code**: tus alumnos instalan el editor
+Incluye un **catálogo visual de estilos** (motion graphics, subtítulos y b-rolls)
+que se te muestra como guía la primera vez, para que veas qué se puede lograr y
+elijas.
+
+Este repo es un **marketplace de Claude Code**: tus alumnos instalan el sistema
 con dos comandos, sin descargar nada a mano.
 
 ---
@@ -15,10 +20,10 @@ Necesitás **Claude Code** (app de escritorio o terminal). Adentro de Claude Cod
 escribí:
 
 ```
-/plugin marketplace add jjjhonsonmagic/maquina-bythelineedicion-plugin
+/plugin marketplace add the-line-project/maquina-bythelineedicion-plugin
 ```
 ```
-/plugin install reel-editor@the-line-project
+/plugin install line-system@the-line-project
 ```
 
 Después, **la primera vez**, preparás la máquina (instala las herramientas y el
@@ -39,18 +44,18 @@ Adentro de Claude Code, pedile:
 
 > "Editá este crudo en nuestro estilo: /ruta/a/mi-video.mp4"
 
-Y hace todo: **transcribe → corta → subtítulos blanco/naranja palabra por palabra
-→ motion graphics (o subs-only) → música + efectos → render → te entrega
-`CRUDO N - EDITADO.mp4`**.
+La **primera vez** te muestra el **catálogo de estilos** como guía. Después hace
+todo: **transcribe → corta → subtítulos palabra por palabra → motion graphics (o
+subs-only) → música + efectos → render → te entrega `CRUDO N - EDITADO.mp4`**.
 
-Escribí `/reel-editor` para ver la skill, o `/setup-editor` si necesitás preparar
-el entorno de nuevo.
+- `/line-system` — abre el sistema y su catálogo de estilos (la guía).
+- `/setup-editor` — prepara (o repara) el entorno de render.
 
 ---
 
 ## 🎵 Música
 
-La máquina **no trae música** (por derechos de autor). Poné tu propia pista
+El sistema **no trae música** (por derechos de autor). Poné tu propia pista
 royalty-free en `~/the-line-project-editor/maquina-edicion/public/musica.mp3`
 (instrucciones en el `PONE-TU-MUSICA-ACA.txt` de esa carpeta). Sin música, el reel
 igual se renderiza con la voz sola.
@@ -62,9 +67,11 @@ igual se renderiza con la voz sola.
 ```
 maquina-edicion-plugin/            ← este repo = marketplace
 ├── .claude-plugin/marketplace.json
-└── reel-editor/                   ← el plugin
+└── line-system/                   ← el plugin
     ├── .claude-plugin/plugin.json
-    ├── skills/reel-editor/        ← la skill (el "cómo editar")
+    ├── skills/
+    │   ├── line-system/           ← la guía + catálogo (catalogo.html)
+    │   └── reel-editor/           ← el "cómo editar" (producción Remotion)
     ├── commands/setup-editor.md   ← comando /setup-editor
     ├── maquina-edicion/           ← proyecto Remotion (motor)
     ├── setup-mac.sh

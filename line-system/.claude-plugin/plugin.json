@@ -1,0 +1,18 @@
+{
+  "name": "line-system",
+  "version": "1.0.0",
+  "description": "Line System (The Line Project): sistema de edición de reels verticales 1080×1920. Trae un catálogo visual de estilos (motion graphics, subtítulos y b-rolls) como guía, y produce cada estilo con IA — transcribe, corta, subtítulos dinámicos, motion graphics, música y efectos, render con Remotion. 100% local, sin APIs pagas.",
+  "author": {
+    "name": "The Line Project"
+  },
+  "keywords": [
+    "video",
+    "reels",
+    "editing",
+    "remotion",
+    "subtitles",
+    "motion-graphics",
+    "content",
+    "line-system"
+  ]
+}

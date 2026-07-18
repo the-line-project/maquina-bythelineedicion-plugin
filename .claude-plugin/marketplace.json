@@ -9,9 +9,9 @@
   },
   "plugins": [
     {
-      "name": "reel-editor",
-      "source": "./reel-editor",
-      "description": "Editor de reels verticales con IA: transcribe, corta, pone subtítulos dinámicos, motion graphics, música y efectos, y renderiza el reel final. 100% local.",
+      "name": "line-system",
+      "source": "./line-system",
+      "description": "Line System — sistema de edición de reels verticales con IA. Catálogo visual de estilos (motion graphics, subtítulos, b-rolls) como guía + producción completa: transcribe, corta, subtítulos dinámicos, motion graphics, música y efectos, render final. 100% local.",
       "version": "1.0.0",
       "author": {
         "name": "The Line Project"
